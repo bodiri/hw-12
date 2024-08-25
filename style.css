@@ -1,0 +1,39 @@
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: fuchsia;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    list-style: none;
+    all: ;
+    }
+    
+    
+    .box {
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+    padding: 0;
+    .box1{
+        flex-direction: row-reverse;
+        }
+        
+        .box2{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        }
+        .box3{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        }
+        
+        .box4{
+        justify-content: space-between;
+        align-items: end;
+        }
+    
+    }
